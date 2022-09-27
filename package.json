@@ -1,0 +1,27 @@
+{
+  "name": "kootube",
+  "version": "1.0.0",
+  "description": " The best way to watch a videos.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoahKoo/kootube-reloaded.git"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "author": "NoahKoo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NoahKoo/kootube-reloaded/issues"
+  },
+  "homepage": "https://github.com/NoahKoo/kootube-reloaded#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.1",
+    "@babel/node": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "nodemon": "^2.0.20"
+  }
+}
