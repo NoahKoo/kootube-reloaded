@@ -7,7 +7,7 @@
     "url": "git+https://github.com/NoahKoo/kootube-reloaded.git"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node src/server.js"
+    "dev": "nodemon --exec babel-node src/server.js --delay 2"
   },
   "author": "NoahKoo",
   "license": "MIT",
