@@ -12,6 +12,8 @@ const logger = morgan("dev");
 app.set("view engine", "pug");
 app.set("views", process.cwd() + "/src/views");
 app.use(logger);
+app.use(express.urlencoded({ extended: true }));
+// express application이 form의 value들을 이해할 수 있도록 하고, 자바스크립트 형식으로 변형시켜줌.
 app.use("/", globalRouter);
 app.use("/videos", videoRouter);
 app.use("/users", userRouter);
